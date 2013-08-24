@@ -7,16 +7,17 @@
 ###	#	
 ### ############################################################################################################
 ### ############################################################################################################
-__plugin__	=	"[COLOR grey][COLOR goldenrod]S[/COLOR]olar[COLOR yellow]M[/COLOR]ovie.so[/COLOR]"
+__plugin__	=	"MovieFork.com"
 __authors__	=	"The Highway"
-plugin_id		=	"plugin.video.solarmovie.so"
+plugin_id		=	"plugin.video.moviefork"
 ### ############################################################################################################
 ### ############################################################################################################
 import xbmc,xbmcplugin,xbmcgui,xbmcaddon,xbmcvfs
 try: import requests ### <import addon="script.module.requests" version="1.1.0"/> ### 
 except: t=''				 ### See https://github.com/kennethreitz/requests ### 
 import urllib,urllib2,re,os,sys,htmllib,string,StringIO,logging,random,array,time,datetime
-import urlresolver
+try: import urlresolver
+except: t=''
 import copy
 try: import json
 except ImportError: import simplejson as json
@@ -1704,6 +1705,7 @@ def twitter_timeline(person):
 
 
 ### ############################################################################################################
+
 
 
 

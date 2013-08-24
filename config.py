@@ -20,7 +20,7 @@ def ps(x):
 	return {
 		'__plugin__': 					"MovieFork.com"
 		,'__authors__': 				"[COLOR white]The[COLOR tan]Highway[/COLOR][/COLOR]"
-		,'__credits__': 				"anilkuj of plugin.video.soloremovie (solarmovie.eu) for much initial work, TheHighway of plugin.video.theanimehighway for teh_tools.py.  Mikey1234 of SimplyMovies.  Bstrdsmkr of 1 Channel.  Those that worked on UrlResolver.  Those of #XBMCHUB on irc.freenode.net.  And of course,  XBMCHub.com itself."
+		,'__credits__': 				"TheHighway of plugin.video.theanimehighway for teh_tools.py, anilkuj of plugin.video.soloremovie (solarmovie.eu) for much initial work.  Mikey1234 of SimplyMovies.  Bstrdsmkr of 1 Channel.  Those that worked on UrlResolver.  Those of #XBMCHUB on irc.freenode.net.  And of course,  XBMCHub.com itself."
 		,'_addon_id': 					"plugin.video.moviefork"
 		,'_plugin_id': 					"plugin.video.moviefork"
 		,'_domain_url': 				"http://moviefork.com/"
@@ -29,19 +29,23 @@ def ps(x):
 		,'_category_url':				'http://moviefork.com/Results.cfm?%s'
 		,'_database_name': 			"moviefork"
 		,'_addon_path_art': 		"art"
+		,'art_sun':							'http://moviefork.com/Images/fresh.png'
+		,'art_dead':						'http://moviefork.com/Images/rotten.png'
+		,'art_youtube':					'http://dc201.4shared.com/img/BOP7WPlc/s3/1394e9763e0/youtube-icon.png'
 		,'special.home.addons': 'special:'+os.sep+os.sep+'home'+os.sep+'addons'+os.sep
 		,'special.home': 				'special:'+os.sep+os.sep+'home'
 		,'GENRES': 							['Action & Adventure','Animation','Art House & International','Classics','Comedy','Cult Movies','Documentary','Drama','Horror','Kids & Family','Musical & Performing Arts','Mystery & Suspense','Romance','Science Fiction & Fantasy','Special Interest','Sports & Fitness','Television']
-		,'YEARS': 							['1920','1930','1940','1950','1960','1970','1980','1990','2000','2010']
+		,'YEARS': 							['2010','2000','1990','1980','1970','1960','1950','1940','1930','1920']
+		,'YEARSo': 							['1920','1930','1940','1950','1960','1970','1980','1990','2000','2010']
 		,'GENRESo': 						['Action', 'Adult', 'Adventure', 'Animation', 'Biography', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'Film-Noir', 'Game-Show', 'History', 'Horror', 'Music', 'Musical', 'Mystery', 'News', 'Reality-TV', 'Romance', 'Sci-Fi', 'Short', 'Sport', 'Talk-Show', 'Thriller', 'War', 'Western']
 		,'COUNTRIES': 					['Afghanistan','Albania','Algeria','Andorra','Angola','Argentina','Armenia','Aruba','Australia','Austria','Bahamas','Bahrain','Bangladesh','Barbados','Belarus','Belgium','Bermuda','Bolivia','Bosnia and Herzegovina','Botswana','Brazil','Bulgaria','Cambodia','Cameroon','Canada','Chad','Chile','China','Colombia','Costa Rica','Croatia','Cuba','Cyprus','Czech Republic','Czechoslovakia','Democratic Republic of the Congo','Denmark','Dominican Republic','East Germany','Ecuador','Egypt','El Salvador','Estonia','Ethiopia','Federal Republic of Yugoslavia','Finland','France','Georgia','Germany','Ghana','Greece','Guatemala','Haiti','Honduras','Hong Kong','Hungary','Iceland','India','Indonesia','Iran','Ireland','Isle of Man','Israel','Italy','Jamaica','Japan','Kazakhstan','Kenya','Kuwait','Latvia','Lebanon','Liberia','Libya','Liechtenstein','Lithuania','Luxembourg','Malaysia','Maldives','Malta','Mexico','Moldova','Monaco','Mongolia','Morocco','Namibia','Nepal','Netherlands','Netherlands Antilles','New Zealand','Nicaragua','Nigeria','North Korea','Norway','Occupied Palestinian Territory','Pakistan','Palestine','Panama','Papua New Guinea','Paraguay','Peru','Philippines','Poland','Portugal','Puerto Rico','Qatar','Republic of Macedonia','Romania','Russia','Rwanda','Senegal','Serbia','Serbia and Montenegro','Singapore','Slovakia','Slovenia','South Africa','South Korea','Soviet Union','Spain','Sri Lanka','Sweden','Switzerland','Taiwan','Tajikistan','Tanzania','Thailand','Togo','Trinidad and Tobago','Tunisia','Turkey','U.S. Virgin Islands','UK','Ukraine','United Arab Emirates','United States Minor Outlying Islands','Uruguay','USA','Venezuela','Vietnam','West Germany','Yugoslavia','Zaire','Zambia','Zimbabwe']
 		,'RATINGS':							['G','PG','PG-13','NC-17','R','Unrated']
 		,'SCORES':							['Bad','Below Average','Average','Above Average','Very Good','Great']
 		,'default_art_ext': 		'.png'
-		,'default_cFL_color': 	'goldenrod'
-		,'cFL_color': 					'goldenrod'
-		,'cFL_color2': 					'yellow'
-		,'cFL_color3': 					'red'
+		,'default_cFL_color': 	'red'
+		,'cFL_color': 					'red'
+		,'cFL_color2': 					'lime'
+		,'cFL_color3': 					'green'
 		,'cFL_color4': 					'grey'
 		,'cFL_color5': 					'white'
 		,'cFL_color6': 					'blanchedalmond'
