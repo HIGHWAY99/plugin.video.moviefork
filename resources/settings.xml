@@ -10,17 +10,17 @@
 		<setting type="text" default=""  id="fav.movies.1.name" label="Favorites 1: Name" />
 		<setting type="text" default="2" id="fav.movies.2.name" label="Favorites 2: Name" />
 		<setting id="movies-favorites-clear-enable" type="bool"   label="  \/  ( Dummy Proofing )" default="false"/>
-		<setting label="Clear Favorites"   type="action" 	enable="!eq(-1,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=movies&subfav=)"/>
-		<setting label="Clear Favorites 2" type="action" 	enable="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=movies&subfav=2)"/>
+		<setting label="Clear Favorites"   type="action" 	enable="!eq(-1,false)" action="RunPlugin(plugin://plugin.video.moviefork/default.py?mode=FavoritesEmpty&secction=movies&subfav=)"/>
+		<setting label="Clear Favorites 2" type="action" 	enable="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.moviefork/default.py?mode=FavoritesEmpty&secction=movies&subfav=2)"/>
 	</category>
 	<category label="TV">
 		<setting visible="false" type="text" default=""  id="fav.tv.1.name" label="Favorites 1: Name" />
 		<setting visible="false" type="text" default="2" id="fav.tv.2.name" label="Favorites 2: Name" />
 		<setting visible="false" type="text" default="3" id="fav.tv.3.name" label="Favorites 3: Name" />
 		<setting visible="false" id="tv-favorites-clear-enable" type="bool"   		label="  \/  ( Dummy Proofing )" default="false"/>
-		<setting visible="false" label="Clear Favorites"   type="action" 	enable="!eq(-1,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=tv&subfav=)"/>
-		<setting visible="false" label="Clear Favorites 2" type="action" 	enable="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=tv&subfav=2)"/>
-		<setting visible="false" label="Clear Favorites 3" type="action" 	enable="!eq(-3,false)" action="RunPlugin(plugin://plugin.video.theanimehighway/theanimehighway.py?mode=FavoritesEmpty&secction=tv&subfav=3)"/>
+		<setting visible="false" label="Clear Favorites"   type="action" 	enable="!eq(-1,false)" action="RunPlugin(plugin://plugin.video.moviefork/default.py?mode=FavoritesEmpty&secction=tv&subfav=)"/>
+		<setting visible="false" label="Clear Favorites 2" type="action" 	enable="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.moviefork/default.py?mode=FavoritesEmpty&secction=tv&subfav=2)"/>
+		<setting visible="false" label="Clear Favorites 3" type="action" 	enable="!eq(-3,false)" action="RunPlugin(plugin://plugin.video.moviefork/default.py?mode=FavoritesEmpty&secction=tv&subfav=3)"/>
 		<setting visible="false" id="tv-zerolinks-show" type="bool"   		label="Show Episodes with 0 (Zero) Links" default="true"/>
 	</category>
 	<category label="Auto-View">
